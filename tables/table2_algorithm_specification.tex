@@ -1,0 +1,21 @@
+\begin{table}
+\caption{Algorithm specification: family, backend implementation, default hyperparameters, GPU availability.}
+\label{tab:algorithms}
+\begin{tabular}{lllllll}
+\toprule
+algo\_id & short\_name & family & backend\_cls & hyperparameters & prep\_sensitivity\_expected & gpu\_available \\
+\midrule
+A1\_Ridge\_LogReg & Ridge/LogReg & Linear & cuML/sklearn & alpha=1.0 (Ridge); C=1.0, max\_iter=1000 (LogReg) & Low (scale-invariant via penalty) & GPU\_LIN \\
+A2\_DecTree & Dec. Tree & Tree & cuML/sklearn & max\_depth=None, random\_state=42 & Near-zero (split-based) & GPU\_TREE \\
+A3\_RandForest & Rand. Forest & Ensemble (bagging) & cuML/sklearn & n\_estimators=100, random\_state=42 & Near-zero (split-based) & GPU\_RF \\
+A4\_GradBoosting\_SKL & Grad. Boost. & Ensemble (boosting) & sklearn & n\_estimators=100, learning\_rate=0.1 & Low (split-based) & No (sklearn GBM) \\
+A5\_SVM\_SVR & SVM/SVR & Kernel & cuML SVR / sklearn SVC & kernel='rbf', C=1.0, gamma='scale' & CRITICAL (distance-based) & GPU\_SVM (regression only) \\
+A6\_XGBoost & XGBoost & Ensemble (boosting) & xgboost 3.2+ (device='cuda') & n\_estimators=100, random\_state=42 & Near-zero & Yes (native CUDA) \\
+A7\_LightGBM & LightGBM & Ensemble (boosting) & lightgbm 4.6+ (device\_type='cuda') & n\_estimators=100, random\_state=42 & Near-zero & Yes (CUDA backend) \\
+A8\_CatBoost & CatBoost & Ensemble (boosting) & catboost 1.2.10+ (task\_type='GPU') & iterations=100, depth=3, learning\_rate=0.1 & Low (with uniform preprocessing - native cat handler suppressed; see the CatBoost note in the Experimental Design) & Yes (task\_type='GPU', devices='0') \\
+A9\_MLP & MLP & Neural Network & sklearn MLP & (100, 50) hidden, relu, adam, max\_iter=300 & HIGH (gradient-based) & Yes (Torch CUDA; sklearn MLP on CPU fallback) \\
+A10\_TabPFN & TabPFN & In-Context Foundation Model & tabpfn 2.5+ (device='cuda') & n\_estimators=4, fit\_mode='low\_memory', inference\_precision='auto' & Reduced (in-context normalization - Hollmann 2023) & Yes \\
+A11\_kNN & k-NN & Instance-based & cuML/sklearn & n\_neighbors=5, metric='minkowski' & CRITICAL (distance-based) & GPU\_KNN \\
+\bottomrule
+\end{tabular}
+\end{table}

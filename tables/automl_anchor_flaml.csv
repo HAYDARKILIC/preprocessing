@@ -1,0 +1,7 @@
+dataset,algo_id,task,flaml_level,oracle_level,flaml_idx,oracle_idx,abs_gap,exact_match
+house_8l,A3_RandForest,regression,P1,P1,0,0,0,True
+kin8nm,A9_MLP,regression,P1,P1,0,0,0,True
+mfeat_morphological,A3_RandForest,classification,P1,P1,0,0,0,True
+cmc,A3_RandForest,classification,P1,P1,0,0,0,True
+credit_approval,A3_RandForest,classification,P2,P2,1,1,0,True
+airfoil,A5_SVM_SVR,regression,P1,P1,0,0,0,True

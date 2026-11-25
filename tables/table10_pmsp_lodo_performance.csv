@@ -1,0 +1,7 @@
+method,exact_acc,exact_acc_CIlo,exact_acc_CIhi,off_by_one_acc,level_MAE,mean_perf_gap,perf_gap_CIlo,perf_gap_CIhi,mean_fit_fraction,compute_saving_pct,within_tau,status
+B0_global,0.7092,0.7092,0.7092,0.8505,0.756,0.03915,0.03915,0.03915,0.1111,88.9,False,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv
+B1_algo_mode,0.7092,0.7092,0.7092,0.8505,0.756,0.03915,0.03915,0.03915,0.1111,88.9,False,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv
+B2_regime,0.7009,0.7009,0.7009,0.8505,0.7612,0.03915,0.03915,0.03915,0.1124,88.8,False,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv
+B3_meta_knn,0.7103,0.7103,0.7103,0.8359,0.7466,0.03383,0.03383,0.03383,0.1419,85.8,False,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv
+B4_automl,1.0,1.0,1.0,1.0,0.0,0.00102,0.00102,0.00102,0.1951,80.5,True,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv
+P-MSP_meta,0.7092,0.7092,0.7092,0.8505,0.756,0.03915,0.03915,0.03915,0.1111,88.9,False,SUPERSEDED: fallback run; authoritative values in pmsp_rerun_summary.csv

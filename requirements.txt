@@ -1,0 +1,14 @@
+# Analysis and verification notebooks (00_quickstart, 02_analysis_and_verification)
+# These need no GPU and run in ~2 minutes.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+statsmodels>=0.14
+scikit-learn>=1.4
+mord>=0.6
+jupyter>=1.0
+
+# Full pipeline (01_pipeline.ipynb) additionally requires, on a CUDA machine:
+#   cuml-cu12, xgboost>=3.2, lightgbm>=4.6, catboost>=1.2.10,
+#   tabpfn>=2.5, torch (CUDA build), openml>=0.15, scikit-posthocs>=0.11
+# See data/requirements_pinned.txt for the full pinned set.

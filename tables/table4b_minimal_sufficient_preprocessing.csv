@@ -1,0 +1,12 @@
+algo_id,short_name,msp_tau0.5%,msp_tau1%,msp_tau2%,n_datasets,mean_gain_full_vs_msp1pct,tau_stable_all3
+A10_TabPFN,TabPFN,P1,P1,P1,45,-0.0001,True
+A11_kNN,k-NN,P4,P1,P1,92,-0.0301,False
+A1_Ridge_LogReg,Ridge/LogReg,P1,P1,P1,92,-0.0022,True
+A2_DecTree,Dec. Tree,P1,P1,P1,92,-0.0089,True
+A3_RandForest,Rand. Forest,P1,P1,P1,92,-0.001,True
+A4_GradBoosting_SKL,Grad. Boost.,P1,P1,P1,91,-0.0012,True
+A5_SVM_SVR,SVM/SVR,P4,P1,P1,91,-0.0218,False
+A6_XGBoost,XGBoost,P1,P1,P1,92,-0.0006,True
+A7_LightGBM,LightGBM,P1,P1,P1,92,-0.0013,True
+A8_CatBoost,CatBoost,P1,P1,P1,92,-0.0009,True
+A9_MLP,MLP,P1,P1,P1,92,-0.0014,True

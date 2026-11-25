@@ -1,0 +1,41 @@
+metric,value
+total_cells,9405.0
+ok_cells,8610.0
+failed_cells,795.0
+ok_rate_pct,91.55
+skip:tabpfn_scope_exceeded,432.0
+"skip:ValueError: Not 2D ||   File ""/usr/local/lib/python3.12/dist",66.0
+skip:ValueError: The output of the 'num' transformer should be 2D,33.0
+"skip:CUSOLVERError: CUSOLVER_STATUS_INVALID_VALUE ||   File ""cupy",1.0
+skip:TimeoutError: fit exceeded 300s (electricity/A5_SVM_SVR/P2) ,1.0
+skip:TimeoutError: fit exceeded 300s (electricity/A5_SVM_SVR/P1) ,1.0
+skip:TimeoutError: fit exceeded 1200s (telco_churn/A5_SVM_SVR/P2),1.0
+skip:TimeoutError: fit exceeded 300s (electricity/A5_SVM_SVR/P3) ,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P7) - lik,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P4) - lik,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P5) - lik,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P6) - lik,1.0
+skip:TimeoutError: fit exceeded 300s (medical_charges/A3_RandFore,1.0
+skip:TimeoutError: fit exceeded 300s (medical_charges/A4_GradBoos,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P8a) - li,1.0
+skip:TimeoutError: fit exceeded 300s (isolet/A5_SVM_SVR/P8b) - li,1.0
+skip:TimeoutError: fit exceeded 300s (medical_charges/A2_DecTree/,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P2) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A4_GradBoosting_S,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P1) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P5) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P4) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P3) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P6) - ,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P8b) -,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P8a) -,1.0
+skip:TimeoutError: fit exceeded 300s (mnist_784/A5_SVM_SVR/P7) - ,1.0
+skip:TimeoutError: fit exceeded 300s (nomao/A5_SVM_SVR/P6) - like,1.0

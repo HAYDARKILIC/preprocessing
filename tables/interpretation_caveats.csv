@@ -1,0 +1,4 @@
+id,statement
+C1_catboost_parity,"A8 CatBoost receives the same numeric Pk matrix as every estimator; its native categorical handler is NOT exercised. A8's low preprocessing sensitivity reflects its boosting-tree architecture under common preprocessing, not its native categorical mode."
+C2_tabpfn_scope,"A10 TabPFN is evaluated only within scope (n<=3000, p<=100) and has architectural input normalization; its 'reduced' sensitivity is scope- and architecture-bounded, not a claim of immunity."
+C3_P1_drops_categoricals,"P1 drops categorical columns entirely; the P1->P2 gap therefore mixes information recovery (adding categoricals) with encoding, and should not be read as a pure encoding effect. Pure encoding/strategy marginals are isolated at P2->P3."

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the accompanying article."
+title: "Preprocessing effort vs. learner choice: replication code"
+type: software
+authors:
+  - family-names: Kilic
+    given-names: Haydar
+    orcid: "https://orcid.org/0000-0002-2551-3772"
+    affiliation: "Faculty of Engineering, Ostim Technical University, Ankara, Turkey"
+license: MIT
+keywords:
+  - data preprocessing
+  - tabular machine learning
+  - benchmark study
+  - effect size
+  - reproducibility

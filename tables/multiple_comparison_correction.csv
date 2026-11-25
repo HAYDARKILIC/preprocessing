@@ -1,0 +1,14 @@
+Test,p_raw,q_Holm,q_BH,sig_Holm_0.05,sig_BH_0.05
+Wilcoxon P1->P2,0.01447892336,0.144789,0.0470565,False,True
+Wilcoxon P2->P3,0.37579066,1,0.488528,False,False
+Wilcoxon P3->P4,6.999266083e-09,9.09905e-08,9.09905e-08,True,True
+Wilcoxon P4->P5,0.2409564696,1,0.439276,False,False
+Wilcoxon P5->P6,0.9991395173,1,0.99914,False,False
+Wilcoxon P6->P7,0.001350000339,0.0162,0.008775,True,True
+Wilcoxon P7->P8a,0.8373681326,1,0.907149,False,False
+Wilcoxon P8a->P8b,0.2703235409,1,0.439276,False,False
+Spearman IR_max_min,0.7096645223,1,0.838694,False,False
+Spearman cat_density,0.002409059461,0.0264997,0.0104393,True,True
+Spearman log10_n,0.3667908244,1,0.488528,False,False
+Spearman miss_rate,0.06345562811,0.571101,0.164985,False,False
+Wilcoxon high-missingness subgroup P3->P4,0.125,1,0.270833,False,False

@@ -1,0 +1,3 @@
+factor,W,ci_lo_percentile,ci_hi_percentile,ci_lo_BCa,ci_hi_BCa
+preprocessing,0.1177,0.0553,0.2222,0.0473,0.2038
+algorithm_stage_A,0.458,0.4096,0.5201,0.3971,0.5066

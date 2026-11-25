@@ -1,0 +1,22 @@
+% Table 11 - P-MSP interpretable rule list (depth-3 tree; class k => pipeline P-level idx k)
+\begin{verbatim}
+|--- cat_density <= 0.30
+|   |--- algo_sensitivity <= 3.50
+|   |   |--- algo_sensitivity <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- algo_sensitivity >  1.50
+|   |   |   |--- class: 0
+|   |--- algo_sensitivity >  3.50
+|   |   |--- log10_n <= 3.29
+|   |   |   |--- class: 3
+|   |   |--- log10_n >  3.29
+|   |   |   |--- class: 0
+|--- cat_density >  0.30
+|   |--- cat_density <= 0.55
+|   |   |--- class: 1
+|   |--- cat_density >  0.55
+|   |   |--- algo_sensitivity <= 1.50
+|   |   |   |--- class: 1
+|   |   |--- algo_sensitivity >  1.50
+|   |   |   |--- class: 1
+\end{verbatim}

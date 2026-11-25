@@ -1,0 +1,3 @@
+stage,k_algo,N_datasets,eps2_prep,eps2_algo,delta_eps2,ci_lo,ci_hi,se,p_one_sided,ci_excludes_zero
+"A (primary, TabPFN excluded)",10,87,0.1177,0.458,-0.3403,-0.4239,-0.2262,0.0499,1.0,True
+"B (sensitivity, all 11 algos)",11,43,0.1886,0.574,-0.3854,-0.509,-0.2178,0.075,1.0,True

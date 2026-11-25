@@ -1,0 +1,96 @@
+dataset,n_samples,n_features,task,n_classes,imbalance_ratio,miss_rate_pct,n_numeric,n_categorical,n_high_card_cat,p_over_n,tabpfn_scope,target_range,high_miss_subgroup
+abalone,4177,8,regression,0,1.0,0.0,7,1,0,0.0019,False,"[1.00, 29.00]",False
+adult_income,48842,14,classification,2,3.18,0.95,6,8,3,0.0003,False,,False
+ailerons,13750,40,regression,0,1.0,0.0,40,0,0,0.0029,False,"[-0.00, 0.00]",False
+airfoil,7400,20,regression,0,1.0,0.0,20,0,0,0.0027,False,"[1.00, 2.00]",False
+ames_housing,1460,80,regression,0,1.0,5.96,37,43,3,0.0548,False,"[34900.00, 755000.00]",True
+analcatdata_dmft,797,4,classification,6,1.26,0.0,2,2,0,0.005,True,,False
+anneal,898,38,classification,5,85.5,64.98,10,28,0,0.0423,True,,True
+auto_mpg,398,7,regression,0,1.0,0.22,7,0,0,0.0176,False,"[9.00, 46.60]",False
+balance_scale,625,4,classification,3,5.88,0.0,4,0,0,0.0064,True,,False
+bank32nh,8192,32,regression,0,1.0,0.0,32,0,0,0.0039,False,"[0.00, 0.82]",False
+bank_marketing,45211,16,classification,2,7.55,0.0,7,9,2,0.0004,False,,False
+banknote,1372,4,classification,2,1.25,0.0,4,0,0,0.0029,True,,False
+bike_sharing,17379,12,regression,0,1.0,0.0,8,4,0,0.0007,False,"[1.00, 977.00]",False
+blood_transfusion,748,4,classification,2,3.2,0.0,4,0,0,0.0053,True,,False
+breast_cancer,569,30,classification,2,1.68,0.0,30,0,0,0.0527,True,,False
+breast_w,699,9,classification,2,1.9,0.25,9,0,0,0.0129,True,,False
+california_housing,20640,8,regression,0,1.0,0.0,8,0,0,0.0004,False,"[0.15, 5.00]",False
+car,1728,6,classification,4,18.62,0.0,0,6,0,0.0035,True,,False
+churn,5000,20,classification,2,6.07,0.0,20,0,0,0.004,False,,False
+climate_sim,540,20,classification,2,10.74,0.0,20,0,0,0.037,True,,False
+cmc,1473,9,classification,3,1.89,0.0,9,0,0,0.0061,True,,False
+concrete,1030,8,regression,0,1.0,0.0,8,0,0,0.0078,False,"[2.33, 82.60]",False
+covertype,50000,54,classification,2,1.34,0.0,54,0,0,0.0011,False,,False
+cps_wages,534,10,regression,0,1.0,0.0,3,7,0,0.0187,False,"[1.00, 44.50]",False
+cpu_act,8192,21,regression,0,1.0,0.0,21,0,0,0.0026,False,"[0.00, 99.00]",False
+cpu_small,8192,12,regression,0,1.0,0.0,12,0,0,0.0015,False,"[0.00, 99.00]",False
+credit_approval,690,15,classification,2,1.25,0.65,6,9,1,0.0217,True,,False
+credit_card_fraud,284807,29,classification,2,577.88,0.0,29,0,0,0.0001,False,,False
+cylinder_bands,540,37,classification,2,1.37,5.0,23,14,1,0.0685,True,,False
+delta_ailerons,189,9,regression,0,1.0,0.0,9,0,0,0.0476,False,"[709.00, 4990.00]",False
+delta_elevators,9517,6,regression,0,1.0,0.0,6,0,0,0.0006,False,"[-0.01, 0.01]",False
+dermatology,366,34,classification,6,5.6,0.06,34,0,0,0.0929,True,,False
+diabetes,442,10,regression,0,1.0,0.0,10,0,0,0.0226,False,"[25.00, 346.00]",False
+dna,3186,180,classification,3,2.16,0.0,180,0,0,0.0565,False,,False
+electricity,45312,8,classification,2,1.36,0.0,8,0,0,0.0002,False,,False
+elevators,16599,18,regression,0,1.0,0.0,18,0,0,0.0011,False,"[0.01, 0.08]",False
+energy_efficiency,768,9,regression,0,1.0,0.0,9,0,0,0.0117,False,"[1.00, 37.00]",False
+eucalyptus,736,19,classification,5,2.04,3.2,14,5,4,0.0258,True,,False
+fried,40768,10,regression,0,1.0,0.0,10,0,0,0.0002,False,"[-1.23, 30.52]",False
+german_credit,1000,20,classification,2,2.33,0.0,7,13,0,0.02,True,,False
+gina_agnostic,3468,970,classification,2,1.03,0.0,970,0,0,0.2797,False,,False
+grid_stability,10000,13,regression,0,1.0,0.0,12,1,0,0.0013,False,"[-0.08, 0.11]",False
+hepatitis,155,19,classification,2,3.84,5.67,6,13,0,0.1226,True,,True
+horse_colic,368,26,classification,2,1.71,20.14,26,0,0,0.0707,True,,True
+house_16H,22784,16,regression,0,1.0,0.0,16,0,0,0.0007,False,"[0.00, 500001.00]",False
+house_8l,22784,8,regression,0,1.0,0.0,8,0,0,0.0004,False,"[0.00, 500001.00]",False
+ilpd,583,10,classification,2,2.49,0.0,9,1,0,0.0172,True,,False
+isolet,7797,617,classification,26,1.01,0.0,617,0,0,0.0791,False,,False
+jungle_chess,44819,6,classification,3,5.32,0.0,6,0,0,0.0001,False,,False
+kin8nm,8192,8,regression,0,1.0,0.0,8,0,0,0.001,False,"[0.04, 1.46]",False
+king_county,21613,19,regression,0,1.0,0.0,17,2,2,0.0009,False,"[75000.00, 7700000.00]",False
+kr_vs_kp,3196,36,classification,2,1.09,0.0,0,36,0,0.0113,False,,False
+letter,20000,16,classification,26,1.11,0.0,16,0,0,0.0008,False,,False
+madelon,2600,500,classification,2,1.0,0.0,500,0,0,0.1923,False,,False
+mammography,11183,6,classification,2,42.01,0.0,6,0,0,0.0005,False,,False
+medical_charges,163065,11,regression,0,1.0,0.0,5,6,6,0.0001,False,"[2673.00, 156158.18]",False
+mfeat_factors,2000,216,classification,10,1.0,0.0,216,0,0,0.108,False,,False
+mfeat_fourier,2000,76,classification,10,1.0,0.0,76,0,0,0.038,True,,False
+mfeat_karhunen,2000,64,classification,10,1.0,0.0,64,0,0,0.032,True,,False
+mfeat_morphological,2000,6,classification,10,1.0,0.0,6,0,0,0.003,True,,False
+mfeat_zernike,2000,47,classification,10,1.0,0.0,47,0,0,0.0235,True,,False
+mnist_784,70000,784,classification,10,1.25,0.0,784,0,0,0.0112,False,,False
+no2,500,7,regression,0,1.0,0.0,7,0,0,0.014,False,"[1.22, 6.40]",False
+nomao,34465,118,classification,2,2.5,0.0,118,0,0,0.0034,False,,False
+optdigits,5620,64,classification,10,1.03,0.0,64,0,0,0.0114,False,,False
+ozone_level,2534,72,classification,2,14.84,0.0,72,0,0,0.0284,True,,False
+pc3,1563,37,classification,2,8.77,0.0,37,0,0,0.0237,True,,False
+pc4,1458,37,classification,2,7.19,0.0,37,0,0,0.0254,True,,False
+pendigits,10992,16,classification,10,1.08,0.0,16,0,0,0.0015,False,,False
+phishing,11055,30,classification,2,1.26,0.0,30,0,0,0.0027,False,,False
+pima_diabetes,768,8,classification,2,1.87,0.0,8,0,0,0.0104,True,,False
+pol,15000,48,classification,2,1.98,0.0,48,0,0,0.0032,False,,False
+pollen,3848,4,regression,0,1.0,0.0,4,0,0,0.001,False,"[-12.04, 10.87]",False
+puma32h,8192,32,regression,0,1.0,0.0,32,0,0,0.0039,False,"[-0.09, 0.09]",False
+qsar_biodeg,1055,41,classification,2,1.96,0.0,41,0,0,0.0389,True,,False
+quake,2178,3,regression,0,1.0,0.0,3,0,0,0.0014,False,"[5.80, 6.90]",False
+satimage,6430,36,classification,6,2.45,0.0,36,0,0,0.0056,False,,False
+segment,2310,19,classification,7,1.0,0.0,19,0,0,0.0082,True,,False
+sensory,576,11,regression,0,1.0,0.0,11,0,0,0.0191,False,"[12.50, 17.50]",False
+socmob,1156,5,regression,0,1.0,0.0,1,4,2,0.0043,False,"[0.00, 414.00]",False
+space_ga,3107,6,regression,0,1.0,0.0,6,0,0,0.0019,False,"[-3.06, 0.10]",False
+spambase,4601,57,classification,2,1.54,0.0,57,0,0,0.0124,False,,False
+splice,3190,60,classification,3,2.16,0.0,0,60,0,0.0188,False,,False
+steel_plates,1941,33,classification,2,1.88,0.0,33,0,0,0.017,True,,False
+sulfur,10081,6,regression,0,1.0,0.0,6,0,0,0.0006,False,"[0.00, 1.00]",False
+telco_churn,7043,19,classification,2,2.77,0.0,3,16,1,0.0027,False,,False
+thyroid_disease,208,60,classification,2,1.14,0.0,60,0,0,0.2885,True,,False
+tic_tac_toe,958,9,classification,2,1.89,0.0,0,9,0,0.0094,True,,False
+vehicle,846,18,classification,4,1.1,0.0,18,0,0,0.0213,True,,False
+vowel,990,12,classification,11,1.0,0.0,10,2,1,0.0121,True,,False
+wdbc,569,30,classification,2,1.68,0.0,30,0,0,0.0527,True,,False
+wind,6574,14,regression,0,1.0,0.0,14,0,0,0.0021,False,"[0.67, 42.54]",False
+wine_quality,4898,11,classification,7,439.6,0.0,11,0,0,0.0022,False,,False
+wine_red,1599,11,classification,6,68.1,0.0,11,0,0,0.0069,True,,False
+yeast,892,8,classification,2,1.08,0.0,8,0,0,0.009,True,,False

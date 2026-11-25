@@ -1,0 +1,10 @@
+pipeline,name,imputation,scaling,encoding,outlier_handling,feature_selection,class_weight,marginal_addition
+P1,NumOnly,mean,none,drop_cat,none,none,no,Baseline: numeric mean imputation only; categoricals dropped
+P2,+OHE,mean,none,OHE,none,none,no,+OneHotEncoding for all categorical features
+P3,+Ordinal,mean,none,OHE+Ordinal,none,none,no,+OrdinalEncoding for high-cardinality cats (>10 unique)
+P4,+StdScaler,mean,StandardScaler,OHE+Ordinal,none,none,no,"+StandardScaler (mu=0, sigma=1) on numeric"
+P5,RobustScaler,mean,RobustScaler,OHE+Ordinal,none,none,no,Scaler type ablation: StandardScaler -> RobustScaler
+P6,+MedianImp,median,RobustScaler,OHE+Ordinal,none,none,no,Imputation ablation: mean -> median
+P7,+IQRClip,median,RobustScaler,OHE+Ordinal,IQRclip(3x),none,no,+IQR clipping (3*IQR) on numeric
+P8a,+VarThresh,median,RobustScaler,OHE+Ordinal,IQRclip(3x),VarianceThreshold(0.01),no,+VarianceThreshold(p=0.01) - feature selection
+P8b,Full,median,RobustScaler,OHE+Ordinal,IQRclip(3x),VarianceThreshold(0.01),balanced (IR>=5),+class_weight='balanced' for IR>=5

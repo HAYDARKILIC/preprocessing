@@ -1,0 +1,3 @@
+factor,n_datasets,k_levels,observed_W,empirical_power_alpha05,parametric_power_alpha05,mde_eps2_at_80pct_power
+preprocessing,88,9,0.1177,0.9998,1.0,0.05
+algorithm_stage_A,91,10,0.458,1.0,1.0,0.05

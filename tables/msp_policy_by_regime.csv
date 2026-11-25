@@ -1,0 +1,54 @@
+algo_id,short_name,regime,n_datasets,recommended_pipeline_tau1%
+A10_TabPFN,TabPFN,smallN/lowMiss/balanced,34,P1
+A10_TabPFN,TabPFN,smallN/lowMiss/imbalanced,8,P1
+A10_TabPFN,TabPFN,smallN/highMiss/balanced,3,P1
+A11_kNN,k-NN,largeN/lowMiss/balanced,32,P1
+A11_kNN,k-NN,smallN/lowMiss/balanced,44,P1
+A11_kNN,k-NN,largeN/lowMiss/imbalanced,5,P4
+A11_kNN,k-NN,smallN/lowMiss/imbalanced,8,P4
+A11_kNN,k-NN,smallN/highMiss/balanced,3,P4
+A1_Ridge_LogReg,Ridge/LogReg,largeN/lowMiss/balanced,32,P1
+A1_Ridge_LogReg,Ridge/LogReg,smallN/lowMiss/balanced,44,P1
+A1_Ridge_LogReg,Ridge/LogReg,largeN/lowMiss/imbalanced,5,P1
+A1_Ridge_LogReg,Ridge/LogReg,smallN/lowMiss/imbalanced,8,P4
+A1_Ridge_LogReg,Ridge/LogReg,smallN/highMiss/balanced,3,P1
+A2_DecTree,Dec. Tree,largeN/lowMiss/balanced,32,P1
+A2_DecTree,Dec. Tree,smallN/lowMiss/balanced,44,P1
+A2_DecTree,Dec. Tree,largeN/lowMiss/imbalanced,5,P1
+A2_DecTree,Dec. Tree,smallN/lowMiss/imbalanced,8,P1
+A2_DecTree,Dec. Tree,smallN/highMiss/balanced,3,P6
+A3_RandForest,Rand. Forest,largeN/lowMiss/balanced,32,P1
+A3_RandForest,Rand. Forest,smallN/lowMiss/balanced,44,P1
+A3_RandForest,Rand. Forest,largeN/lowMiss/imbalanced,5,P1
+A3_RandForest,Rand. Forest,smallN/lowMiss/imbalanced,8,P1
+A3_RandForest,Rand. Forest,smallN/highMiss/balanced,3,P2
+A4_GradBoosting_SKL,Grad. Boost.,largeN/lowMiss/balanced,31,P1
+A4_GradBoosting_SKL,Grad. Boost.,smallN/lowMiss/balanced,44,P1
+A4_GradBoosting_SKL,Grad. Boost.,largeN/lowMiss/imbalanced,5,P1
+A4_GradBoosting_SKL,Grad. Boost.,smallN/lowMiss/imbalanced,8,P1
+A4_GradBoosting_SKL,Grad. Boost.,smallN/highMiss/balanced,3,P6
+A5_SVM_SVR,SVM/SVR,largeN/lowMiss/balanced,31,P1
+A5_SVM_SVR,SVM/SVR,smallN/lowMiss/balanced,44,P4
+A5_SVM_SVR,SVM/SVR,largeN/lowMiss/imbalanced,5,P1
+A5_SVM_SVR,SVM/SVR,smallN/lowMiss/imbalanced,8,P8b
+A5_SVM_SVR,SVM/SVR,smallN/highMiss/balanced,3,P1
+A6_XGBoost,XGBoost,largeN/lowMiss/balanced,32,P1
+A6_XGBoost,XGBoost,smallN/lowMiss/balanced,44,P1
+A6_XGBoost,XGBoost,largeN/lowMiss/imbalanced,5,P1
+A6_XGBoost,XGBoost,smallN/lowMiss/imbalanced,8,P1
+A6_XGBoost,XGBoost,smallN/highMiss/balanced,3,P1
+A7_LightGBM,LightGBM,largeN/lowMiss/balanced,32,P1
+A7_LightGBM,LightGBM,smallN/lowMiss/balanced,44,P1
+A7_LightGBM,LightGBM,largeN/lowMiss/imbalanced,5,P1
+A7_LightGBM,LightGBM,smallN/lowMiss/imbalanced,8,P1
+A7_LightGBM,LightGBM,smallN/highMiss/balanced,3,P2
+A8_CatBoost,CatBoost,largeN/lowMiss/balanced,32,P1
+A8_CatBoost,CatBoost,smallN/lowMiss/balanced,44,P1
+A8_CatBoost,CatBoost,largeN/lowMiss/imbalanced,5,P1
+A8_CatBoost,CatBoost,smallN/lowMiss/imbalanced,8,P1
+A8_CatBoost,CatBoost,smallN/highMiss/balanced,3,P1
+A9_MLP,MLP,largeN/lowMiss/balanced,32,P1
+A9_MLP,MLP,smallN/lowMiss/balanced,44,P1
+A9_MLP,MLP,largeN/lowMiss/imbalanced,5,P1
+A9_MLP,MLP,smallN/lowMiss/imbalanced,8,P1
+A9_MLP,MLP,smallN/highMiss/balanced,3,P7

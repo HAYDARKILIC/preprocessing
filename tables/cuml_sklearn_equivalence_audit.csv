@@ -1,0 +1,13 @@
+algo,dataset,task,score_gpu_cuml,score_cpu_sklearn,abs_diff,rel_diff_pct,verdict
+A1_Ridge_reg,delta_ailerons,regression,0.591391,0.591391,0.0,0.0,PASS
+A1_Ridge_reg,auto_mpg,regression,0.811303,0.811303,0.0,0.0,PASS
+A1_LogReg_cls,dermatology,classification,0.998335,0.99838,4.6e-05,0.0046,PASS
+A1_LogReg_cls,climate_sim,classification,0.858074,0.858074,0.0,0.0,PASS
+A3_RF_reg,delta_ailerons,regression,0.564811,0.561138,0.003673,0.6546,PASS
+A3_RF_reg,auto_mpg,regression,0.863818,0.868498,0.00468,0.5389,PASS
+A3_RF_cls,dermatology,classification,0.999219,0.999415,0.000196,0.0196,PASS
+A3_RF_cls,climate_sim,classification,0.828567,0.813099,0.015467,1.9023,WARN
+A5_SVR_reg,delta_ailerons,regression,-0.097592,-0.097592,0.0,0.0001,PASS
+A5_SVR_reg,auto_mpg,regression,0.836634,0.836633,1e-06,0.0002,PASS
+A11_kNN_reg,delta_ailerons,regression,0.454763,0.452564,0.002199,0.486,PASS
+A11_kNN_reg,auto_mpg,regression,0.854556,0.854556,0.0,0.0,PASS

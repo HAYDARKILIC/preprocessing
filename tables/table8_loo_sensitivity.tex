@@ -1,0 +1,97 @@
+\begin{table}
+\caption{Leave-one-dataset-out sensitivity of $\Delta\varepsilon^2$.}
+\label{tab:loo_sensitivity}
+\begin{tabular}{lrrrrrrr}
+\toprule
+dropped\_dataset & eps2\_prep\_remaining & eps2\_algo\_remaining & delta\_eps2 & ci\_lo\_95 & ci\_hi\_95 & ci\_excludes\_zero & sign\_flip\_vs\_full \\
+\midrule
+abalone & 0.12 & 0.457 & -0.3339 & -0.4207 & -0.2221 & True & False \\
+adult\_income & 0.12 & 0.4565 & -0.3333 & -0.4198 & -0.2228 & True & False \\
+ailerons & 0.121 & 0.46 & -0.336 & -0.4237 & -0.2237 & True & False \\
+airfoil & 0.1227 & 0.4711 & -0.3456 & -0.4319 & -0.239 & True & False \\
+ames\_housing & 0.1221 & 0.4591 & -0.3337 & -0.4242 & -0.2221 & True & False \\
+analcatdata\_dmft & 0.1279 & 0.4653 & -0.3341 & -0.4268 & -0.2209 & True & False \\
+auto\_mpg & 0.1206 & 0.4572 & -0.3334 & -0.4247 & -0.2247 & True & False \\
+balance\_scale & 0.1283 & 0.4657 & -0.3342 & -0.4257 & -0.2238 & True & False \\
+bank32nh & 0.1358 & 0.4573 & -0.3187 & -0.4106 & -0.2067 & True & False \\
+bank\_marketing & 0.1208 & 0.4558 & -0.3326 & -0.4254 & -0.2257 & True & False \\
+banknote & 0.1352 & 0.4619 & -0.3241 & -0.4228 & -0.2184 & True & False \\
+bike\_sharing & 0.1239 & 0.465 & -0.3379 & -0.4312 & -0.2325 & True & False \\
+blood\_transfusion & 0.1223 & 0.4613 & -0.336 & -0.4299 & -0.232 & True & False \\
+breast\_cancer & 0.1226 & 0.4606 & -0.3349 & -0.4289 & -0.2288 & True & False \\
+breast\_w & 0.1332 & 0.4606 & -0.3248 & -0.4207 & -0.2113 & True & False \\
+california\_housing & 0.1212 & 0.4569 & -0.3331 & -0.4258 & -0.2259 & True & False \\
+churn & 0.1203 & 0.4578 & -0.3349 & -0.4279 & -0.2262 & True & False \\
+climate\_sim & 0.123 & 0.4599 & -0.3341 & -0.4288 & -0.2275 & True & False \\
+cmc & 0.1279 & 0.4579 & -0.3272 & -0.4231 & -0.2206 & True & False \\
+concrete & 0.1226 & 0.4581 & -0.3327 & -0.4282 & -0.2242 & True & False \\
+covertype & 0.1231 & 0.4627 & -0.3367 & -0.4314 & -0.2311 & True & False \\
+cps\_wages & 0.1241 & 0.4628 & -0.3357 & -0.4304 & -0.2283 & True & False \\
+cpu\_act & 0.128 & 0.4578 & -0.327 & -0.423 & -0.2185 & True & False \\
+cpu\_small & 0.1231 & 0.4581 & -0.332 & -0.426 & -0.227 & True & False \\
+credit\_approval & 0.1199 & 0.4575 & -0.3347 & -0.4305 & -0.2272 & True & False \\
+credit\_card\_fraud & 0.1216 & 0.4698 & -0.345 & -0.436 & -0.2405 & True & False \\
+cylinder\_bands & 0.1233 & 0.458 & -0.3311 & -0.4226 & -0.2226 & True & False \\
+delta\_ailerons & 0.1211 & 0.4624 & -0.3376 & -0.4298 & -0.2305 & True & False \\
+delta\_elevators & 0.1219 & 0.4576 & -0.3318 & -0.4236 & -0.2243 & True & False \\
+dermatology & 0.1228 & 0.4579 & -0.3312 & -0.4236 & -0.2229 & True & False \\
+diabetes & 0.1224 & 0.4606 & -0.3343 & -0.4264 & -0.2251 & True & False \\
+dna & 0.1346 & 0.4591 & -0.3218 & -0.4166 & -0.2193 & True & False \\
+electricity & 0.1226 & 0.4595 & -0.3342 & -0.4268 & -0.2299 & True & False \\
+elevators & 0.1212 & 0.458 & -0.3342 & -0.4265 & -0.2299 & True & False \\
+energy\_efficiency & 0.1207 & 0.4657 & -0.3419 & -0.4357 & -0.2408 & True & False \\
+eucalyptus & 0.1202 & 0.4573 & -0.3344 & -0.4299 & -0.2274 & True & False \\
+fried & 0.1332 & 0.4579 & -0.3216 & -0.4156 & -0.2127 & True & False \\
+german\_credit & 0.1223 & 0.4573 & -0.3315 & -0.4233 & -0.2212 & True & False \\
+gina\_agnostic & 0.1266 & 0.456 & -0.3258 & -0.4197 & -0.2159 & True & False \\
+grid\_stability & 0.1198 & 0.458 & -0.3343 & -0.4274 & -0.2315 & True & False \\
+hepatitis & 0.1223 & 0.4607 & -0.3344 & -0.4279 & -0.2317 & True & False \\
+horse\_colic & 0.1271 & 0.4575 & -0.3268 & -0.4227 & -0.2145 & True & False \\
+house\_16H & 0.1227 & 0.4574 & -0.331 & -0.4246 & -0.2256 & True & False \\
+house\_8l & 0.1226 & 0.4574 & -0.3311 & -0.4248 & -0.2256 & True & False \\
+ilpd & 0.1295 & 0.4606 & -0.3272 & -0.4236 & -0.2175 & True & False \\
+isolet & 0.1321 & 0.4643 & -0.3283 & -0.425 & -0.2178 & True & False \\
+jungle\_chess & 0.1344 & 0.4589 & -0.321 & -0.4144 & -0.2156 & True & False \\
+kin8nm & 0.1349 & 0.4684 & -0.3299 & -0.427 & -0.2214 & True & False \\
+king\_county & 0.1291 & 0.4575 & -0.3246 & -0.4174 & -0.2183 & True & False \\
+letter & 0.1319 & 0.4618 & -0.3261 & -0.4216 & -0.2208 & True & False \\
+madelon & 0.1321 & 0.4621 & -0.3261 & -0.4216 & -0.2205 & True & False \\
+mammography & 0.1224 & 0.456 & -0.3296 & -0.4218 & -0.2255 & True & False \\
+medical\_charges & 0.1341 & 0.4569 & -0.3186 & -0.413 & -0.2123 & True & False \\
+mfeat\_factors & 0.1227 & 0.4583 & -0.3308 & -0.4216 & -0.2202 & True & False \\
+mfeat\_fourier & 0.1323 & 0.4585 & -0.321 & -0.413 & -0.2077 & True & False \\
+mfeat\_karhunen & 0.1328 & 0.4614 & -0.3233 & -0.416 & -0.2093 & True & False \\
+mfeat\_morphological & 0.1209 & 0.4576 & -0.3314 & -0.4186 & -0.2208 & True & False \\
+mfeat\_zernike & 0.1205 & 0.4666 & -0.3407 & -0.4279 & -0.2294 & True & False \\
+no2 & 0.12 & 0.4559 & -0.33 & -0.4235 & -0.2212 & True & False \\
+nomao & 0.1268 & 0.4567 & -0.3238 & -0.422 & -0.2109 & True & False \\
+optdigits & 0.1325 & 0.462 & -0.3235 & -0.4228 & -0.2114 & True & False \\
+ozone\_level & 0.1233 & 0.4575 & -0.3282 & -0.4239 & -0.2149 & True & False \\
+pc3 & 0.1214 & 0.4575 & -0.3301 & -0.4243 & -0.219 & True & False \\
+pc4 & 0.1205 & 0.4572 & -0.3307 & -0.4244 & -0.2191 & True & False \\
+pendigits & 0.1271 & 0.4617 & -0.3286 & -0.4261 & -0.2163 & True & False \\
+phishing & 0.1233 & 0.4569 & -0.3278 & -0.4237 & -0.218 & True & False \\
+pima\_diabetes & 0.1198 & 0.4617 & -0.3359 & -0.4268 & -0.2289 & True & False \\
+pol & 0.1282 & 0.4591 & -0.3252 & -0.4189 & -0.2178 & True & False \\
+pollen & 0.123 & 0.4655 & -0.3363 & -0.4248 & -0.2324 & True & False \\
+puma32h & 0.12 & 0.4588 & -0.3326 & -0.4224 & -0.2299 & True & False \\
+qsar\_biodeg & 0.1211 & 0.4575 & -0.3302 & -0.4207 & -0.2271 & True & False \\
+quake & 0.128 & 0.462 & -0.3278 & -0.4213 & -0.2181 & True & False \\
+satimage & 0.128 & 0.4571 & -0.3231 & -0.4142 & -0.2176 & True & False \\
+segment & 0.1215 & 0.4559 & -0.3282 & -0.4193 & -0.2235 & True & False \\
+sensory & 0.1335 & 0.4575 & -0.3178 & -0.41 & -0.2131 & True & False \\
+space\_ga & 0.1225 & 0.4574 & -0.3286 & -0.4188 & -0.2286 & True & False \\
+spambase & 0.1214 & 0.456 & -0.3283 & -0.4181 & -0.2285 & True & False \\
+steel\_plates & 0.1202 & 0.4637 & -0.3368 & -0.4265 & -0.2396 & True & False \\
+sulfur & 0.1269 & 0.464 & -0.3306 & -0.4255 & -0.2265 & True & False \\
+telco\_churn & 0.1246 & 0.46 & -0.3289 & -0.4226 & -0.2267 & True & False \\
+thyroid\_disease & 0.1201 & 0.4581 & -0.3315 & -0.4226 & -0.2306 & True & False \\
+vehicle & 0.1198 & 0.4605 & -0.3343 & -0.4262 & -0.2314 & True & False \\
+vowel & 0.1316 & 0.462 & -0.324 & -0.4179 & -0.2193 & True & False \\
+wdbc & 0.1215 & 0.4606 & -0.3325 & -0.4208 & -0.2324 & True & False \\
+wind & 0.1205 & 0.4563 & -0.3291 & -0.4181 & -0.231 & True & False \\
+wine\_red & 0.1211 & 0.4582 & -0.3303 & -0.4203 & -0.232 & True & False \\
+yeast & 0.1324 & 0.4576 & -0.3182 & -0.4103 & -0.218 & True & False \\
+\bottomrule
+\end{tabular}
+\end{table}

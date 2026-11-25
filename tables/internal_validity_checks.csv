@@ -1,0 +1,6 @@
+check,pass_rate
+ridge_scale_invariance,0.875
+tree_scale_invariance,0.0
+svm_scale_sensitivity,1.0
+knn_scale_sensitivity,1.0
+monotonicity,0.8105263157894737

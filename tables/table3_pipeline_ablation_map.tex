@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Preprocessing pipeline ablation map.}
+\label{tab:pipelines}
+\begin{tabular}{llllllll}
+\toprule
+pipeline & name & imputation & scaling & encoding & outlier\_handling & feature\_selection & class\_weight \\
+\midrule
+P1 & NumOnly & mean & none & drop\_cat & none & none & no \\
+P2 & +OHE & mean & none & OHE & none & none & no \\
+P3 & +Ordinal & mean & none & OHE+Ordinal & none & none & no \\
+P4 & +StdScaler & mean & StandardScaler & OHE+Ordinal & none & none & no \\
+P5 & RobustScaler & mean & RobustScaler & OHE+Ordinal & none & none & no \\
+P6 & +MedianImp & median & RobustScaler & OHE+Ordinal & none & none & no \\
+P7 & +IQRClip & median & RobustScaler & OHE+Ordinal & IQRclip(3x) & none & no \\
+P8a & +VarThresh & median & RobustScaler & OHE+Ordinal & IQRclip(3x) & VarianceThreshold(0.01) & no \\
+P8b & Full & median & RobustScaler & OHE+Ordinal & IQRclip(3x) & VarianceThreshold(0.01) & balanced (IR>=5) \\
+\bottomrule
+\end{tabular}
+\end{table}
